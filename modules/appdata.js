@@ -8,7 +8,7 @@ appData.set('#10', {
 
 appData.set('#11', {
     title: 'Cigarette',
-    description: 'No description',
+    description: 'It is the cigarette that Luke was smoking before dying. Maybe I can find more.',
     imgUrl: 'assets/cigarette.jpg'
 });
 

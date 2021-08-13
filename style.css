@@ -65,7 +65,7 @@ body {
 
 .card .card__description {
     grid-row: 2 / 3;
-    grid-column: 3 / 13;
+    grid-column: 4 / 12;
 }
 
 .footer {
