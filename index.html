@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Jelausy</title>
+    <script src="webcomponents.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -13,15 +15,11 @@
             <h1>Indizi</h1>
         </div>
         <div class="content">
-            <div class="card">
-                <div class="card__thumbnail"><img src="assets/ring.jpg" /></div>
-                <div class="card__header"><h1>Anello</h1></div>
-                <div class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ullam distinctio nihil consequuntur eos dicta? Distinctio sapiente ipsum asperiores recusandae? Velit corporis adipisci recusandae dolore.</div>
-            </div>
+            <app-card title="TEST" description="Hello world" imgUrl="assets/ring.jpg"></app-card>
         </div>
         <div class="footer">
             <input class="text-field" type="text" placeholder="Aggiungi indizio trovato">
-            <button class="button">Aggiungi</button>
+            <button class="button" id="add-button">Aggiungi</button>
         </div>
     </div>
 </body>
