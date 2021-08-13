@@ -5,3 +5,9 @@ appData.set('#10', {
     description: 'Si mette al dito',
     imgUrl: 'assets/ring.jpg'
 });
+
+appData.set('#11', {
+    title: 'Sigaretta',
+    description: 'Fa male',
+    imgUrl: 'assets/sigaretta.jpg'
+});
