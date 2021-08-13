@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Jelausy</title>
     <script src="webcomponents.js"></script>
-    <script src="app.js" defer></script>
+    <script src="app.js" defer type="module"></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Indizi</h1>
         </div>
-        <div class="content">
-            <app-card title="TEST" description="Hello world" imgUrl="assets/ring.jpg"></app-card>
+        <div class="content" id="app-content">
         </div>
         <div class="footer">
-            <input class="text-field" type="text" placeholder="Aggiungi indizio trovato">
+            <input id="app-text-field" class="text-field" type="text" placeholder="Aggiungi indizio trovato">
             <button class="button" id="add-button">Aggiungi</button>
         </div>
     </div>
