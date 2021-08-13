@@ -44,6 +44,6 @@ appData.set('LongIsland', {
 
 appData.set('Levender', {
     title: 'Levender',
-    description: "THE MOST IMPORTANT",
+    description: "Lavandula is one of species of flowering plants in the mint family. The campus is full of this plants.",
     imgUrl: 'assets/levender.jpg'
 });
