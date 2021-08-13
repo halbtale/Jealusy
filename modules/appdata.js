@@ -30,8 +30,20 @@ appData.set('Mortar', {
     imgUrl: 'assets/mortar.jpg'
 });
 
-appData.set('Trash', {
-    title: 'Trash',
+appData.set('Trashcan', {
+    title: 'Trashcan',
     description: 'It s a letter written by Gabriele to Anne, where he declares his love for her',
     imgUrl: 'assets/trash.jpg'
+});
+
+appData.set('LongIsland', {
+    title: 'Long Island',
+    description: "The cocktail drunk by Luke before dying",
+    imgUrl: 'assets/cocktail.jpg'
+});
+
+appData.set('Levender', {
+    title: 'Levender',
+    description: "THE MOST IMPORTANT",
+    imgUrl: 'assets/levender.jpg'
 });
