@@ -16,6 +16,7 @@ addButton.addEventListener('click', () => {
     if (code && appData.has(code)) {
         appStorage.addCode(code);
         displayElements(appStorage.elements);
+        appTextField.value = '';
     } else {
         alert('Invalid code');
     }
