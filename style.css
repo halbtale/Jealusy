@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
 html,
 body,
 div {
@@ -27,6 +29,7 @@ body {
 
 .header {
     text-transform: uppercase;
+    font-family: 'Palette Mosaic', cursive;
 }
 
 .content {
